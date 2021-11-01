@@ -51,5 +51,3 @@ void setup(){
 
 
 
-void draw(){    
-}
