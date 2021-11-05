@@ -6,7 +6,7 @@ This processing sketch is a programming that can use preference of music to anal
 This sketch imports the controlP5 library to build the interface. The reason why I choose controlP5 instead of the Interfascia is that the Interfascia will reduce the resolution of the text.
 The background contains a logo and text which designed by myself. There are 4 buttons, a play button, a stop button, and two select buttons.
 ## Data
-The external data is a csv Kaggle data set (Kaggle 2017). In this sketch, there are 6 data are used to calculate. They are acousticness, danceability, energy, loudness, valence, and tempo.
+The external data is a csv Kaggle data set (Kaggle 2017). In this sketch, there are 6 data are used to calculate, which are acousticness, danceability, energy, loudness, valence, and tempo.
 ## Algorithm
 The algorithm uses the data to calculate the Big Five personality (Roccas, Sagiv, Schwartz, & Knafo, 2002).
 Openness to experience is related to acousticness, the higher acousticness represents the normal and conventional music. Then the value of the maximum acousticness – the minimum acousticness can reflect the variety of the person’s preference, so the openness to experience is inventive or curious, otherwise, it is consistent or cautious.
